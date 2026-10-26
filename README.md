@@ -75,6 +75,3 @@ medical accuracy. See [validation notes](NeuroPulse-iOS/UI_REVIEW.md).
 - `scripts/`: focused native regression checks.
 - `docs/CREDITS.md`: team contributions and AI assistance.
 - `THIRD_PARTY_NOTICES.md`: frameworks, source references, and rights information.
-
-This submission snapshot contains the tested native app without private development
-history, signing credentials, earlier prototypes, or video-production assets.
