@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BLDF00000000000000000000 /* NeuroPulseiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FILE00000000000000000000 /* NeuroPulseiOSApp.swift */; };
+		BLDF00010000000000000000 /* NeuroPulseRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FILE00010000000000000000 /* NeuroPulseRootView.swift */; };
+		BLDF00020000000000000000 /* GazeMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = FILE00020000000000000000 /* GazeMath.swift */; };
+		BLDF00030000000000000000 /* BiometricTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FILE00030000000000000000 /* BiometricTypes.swift */; };
+		BLDF00040000000000000000 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FILE00040000000000000000 /* Constants.swift */; };
+		BLDF00050000000000000000 /* BaselineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FILE00050000000000000000 /* BaselineManager.swift */; };
+		BLDF00060000000000000000 /* HapticFeedbackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FILE00060000000000000000 /* HapticFeedbackManager.swift */; };
+		BLDF00070000000000000000 /* GazeTrackerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FILE00070000000000000000 /* GazeTrackerProtocol.swift */; };
+		BLDF00080000000000000000 /* ARFaceGazeTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FILE00080000000000000000 /* ARFaceGazeTracker.swift */; };
+		BLDF00200000000000000000 /* OcularTwitchWaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FILE00200000000000000000 /* OcularTwitchWaveformView.swift */; };
+		BLDF00110000000000000000 /* ExamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FILE00110000000000000000 /* ExamViewModel.swift */; };
+		BLDF00120000000000000000 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FILE00120000000000000000 /* DashboardView.swift */; };
+		BLDF00130000000000000000 /* GazeExamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FILE00130000000000000000 /* GazeExamView.swift */; };
+		BLDF00140000000000000000 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FILE00140000000000000000 /* ResultsView.swift */; };
+		BLDF00150000000000000000 /* AthleteRosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FILE00150000000000000000 /* AthleteRosterView.swift */; };
+		BLDF00160000000000000000 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FILE00160000000000000000 /* AppTheme.swift */; };
+		BLDF00170000000000000000 /* BiomarkerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FILE00170000000000000000 /* BiomarkerCardView.swift */; };
+		BLDF00180000000000000000 /* OcularReticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FILE00180000000000000000 /* OcularReticleView.swift */; };
+		BLDF00190000000000000000 /* ARCameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FILE00190000000000000000 /* ARCameraPreviewView.swift */; };
+		BLDF00300000000000000000 /* MotorTestAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = FILE00300000000000000000 /* MotorTestAnalysis.swift */; };
+		BLDF00310000000000000000 /* MotorTestsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FILE00310000000000000000 /* MotorTestsView.swift */; };
+		BLDF00320000000000000000 /* HeadInjuryResponseGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FILE00320000000000000000 /* HeadInjuryResponseGuideView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		PROD00000000000000000001 /* NeuroPulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuroPulse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FILE00000000000000000000 /* NeuroPulseiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App/NeuroPulseiOSApp.swift"; sourceTree = "<group>"; };
+		FILE00010000000000000000 /* NeuroPulseRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/NeuroPulse/NeuroPulseRootView.swift"; sourceTree = "<group>"; };
+		FILE00020000000000000000 /* GazeMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/NeuroPulse/Biometrics/GazeMath.swift"; sourceTree = "<group>"; };
+		FILE00030000000000000000 /* BiometricTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/NeuroPulse/Models/BiometricTypes.swift"; sourceTree = "<group>"; };
+		FILE00040000000000000000 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/NeuroPulse/Models/Constants.swift"; sourceTree = "<group>"; };
+		FILE00050000000000000000 /* BaselineManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/NeuroPulse/Services/BaselineManager.swift"; sourceTree = "<group>"; };
+		FILE00060000000000000000 /* HapticFeedbackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/NeuroPulse/Services/HapticFeedbackManager.swift"; sourceTree = "<group>"; };
+		FILE00070000000000000000 /* GazeTrackerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/NeuroPulse/Tracking/GazeTrackerProtocol.swift"; sourceTree = "<group>"; };
+		FILE00080000000000000000 /* ARFaceGazeTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/NeuroPulse/Tracking/ARFaceGazeTracker.swift"; sourceTree = "<group>"; };
+		FILE00200000000000000000 /* OcularTwitchWaveformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/NeuroPulse/Views/Components/OcularTwitchWaveformView.swift"; sourceTree = "<group>"; };
+		FILE00110000000000000000 /* ExamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/NeuroPulse/ViewModels/ExamViewModel.swift"; sourceTree = "<group>"; };
+		FILE00120000000000000000 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/NeuroPulse/Views/DashboardView.swift"; sourceTree = "<group>"; };
+		FILE00130000000000000000 /* GazeExamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/NeuroPulse/Views/GazeExamView.swift"; sourceTree = "<group>"; };
+		FILE00140000000000000000 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/NeuroPulse/Views/ResultsView.swift"; sourceTree = "<group>"; };
+		FILE00150000000000000000 /* AthleteRosterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/NeuroPulse/Views/AthleteRosterView.swift"; sourceTree = "<group>"; };
+		FILE00160000000000000000 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/NeuroPulse/Views/Theme/AppTheme.swift"; sourceTree = "<group>"; };
+		FILE00170000000000000000 /* BiomarkerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/NeuroPulse/Views/Components/BiomarkerCardView.swift"; sourceTree = "<group>"; };
+		FILE00180000000000000000 /* OcularReticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/NeuroPulse/Views/Components/OcularReticleView.swift"; sourceTree = "<group>"; };
+		FILE00190000000000000000 /* ARCameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/NeuroPulse/Views/Components/ARCameraPreviewView.swift"; sourceTree = "<group>"; };
+		FILE00300000000000000000 /* MotorTestAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/NeuroPulse/Services/MotorTestAnalysis.swift"; sourceTree = "<group>"; };
+		FILE00310000000000000000 /* MotorTestsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/NeuroPulse/Views/MotorTestsView.swift"; sourceTree = "<group>"; };
+		FILE00320000000000000000 /* HeadInjuryResponseGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/NeuroPulse/Views/HeadInjuryResponseGuideView.swift"; sourceTree = "<group>"; };
+		INFP00000000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "App/Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FPHS00000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		MGRP00000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				FILE00000000000000000000 /* NeuroPulseiOSApp.swift */,
+				FILE00010000000000000000 /* NeuroPulseRootView.swift */,
+				FILE00020000000000000000 /* GazeMath.swift */,
+				FILE00030000000000000000 /* BiometricTypes.swift */,
+				FILE00040000000000000000 /* Constants.swift */,
+				FILE00050000000000000000 /* BaselineManager.swift */,
+				FILE00060000000000000000 /* HapticFeedbackManager.swift */,
+				FILE00070000000000000000 /* GazeTrackerProtocol.swift */,
+				FILE00080000000000000000 /* ARFaceGazeTracker.swift */,
+				FILE00200000000000000000 /* OcularTwitchWaveformView.swift */,
+				FILE00110000000000000000 /* ExamViewModel.swift */,
+				FILE00120000000000000000 /* DashboardView.swift */,
+				FILE00130000000000000000 /* GazeExamView.swift */,
+				FILE00140000000000000000 /* ResultsView.swift */,
+				FILE00150000000000000000 /* AthleteRosterView.swift */,
+				FILE00160000000000000000 /* AppTheme.swift */,
+				FILE00170000000000000000 /* BiomarkerCardView.swift */,
+				FILE00180000000000000000 /* OcularReticleView.swift */,
+				FILE00190000000000000000 /* ARCameraPreviewView.swift */,
+				FILE00300000000000000000 /* MotorTestAnalysis.swift */,
+				FILE00310000000000000000 /* MotorTestsView.swift */,
+				FILE00320000000000000000 /* HeadInjuryResponseGuideView.swift */,
+				INFP00000000000000000000 /* Info.plist */,
+				PGRP00000000000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		PGRP00000000000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				PROD00000000000000000001 /* NeuroPulse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		TARG00000000000000000001 /* NeuroPulse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = TCL000000000000000000001 /* Build configuration list for PBXNativeTarget "NeuroPulse" */;
+			buildPhases = (
+				SPHS00000000000000000001 /* Sources */,
+				FPHS00000000000000000001 /* Frameworks */,
+				RPHS00000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeuroPulse;
+			productName = NeuroPulse;
+			productReference = PROD00000000000000000001 /* NeuroPulse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PROJ00000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					TARG00000000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = PCL000000000000000000001 /* Build configuration list for PBXProject "NeuroPulse" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = MGRP00000000000000000001;
+			productRefGroup = PGRP00000000000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				TARG00000000000000000001 /* NeuroPulse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		RPHS00000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		SPHS00000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BLDF00000000000000000000 /* NeuroPulseiOSApp.swift in Sources */,
+				BLDF00010000000000000000 /* NeuroPulseRootView.swift in Sources */,
+				BLDF00020000000000000000 /* GazeMath.swift in Sources */,
+				BLDF00030000000000000000 /* BiometricTypes.swift in Sources */,
+				BLDF00040000000000000000 /* Constants.swift in Sources */,
+				BLDF00050000000000000000 /* BaselineManager.swift in Sources */,
+				BLDF00060000000000000000 /* HapticFeedbackManager.swift in Sources */,
+				BLDF00070000000000000000 /* GazeTrackerProtocol.swift in Sources */,
+				BLDF00080000000000000000 /* ARFaceGazeTracker.swift in Sources */,
+				BLDF00200000000000000000 /* OcularTwitchWaveformView.swift in Sources */,
+				BLDF00110000000000000000 /* ExamViewModel.swift in Sources */,
+				BLDF00120000000000000000 /* DashboardView.swift in Sources */,
+				BLDF00130000000000000000 /* GazeExamView.swift in Sources */,
+				BLDF00140000000000000000 /* ResultsView.swift in Sources */,
+				BLDF00150000000000000000 /* AthleteRosterView.swift in Sources */,
+				BLDF00160000000000000000 /* AppTheme.swift in Sources */,
+				BLDF00170000000000000000 /* BiomarkerCardView.swift in Sources */,
+				BLDF00180000000000000000 /* OcularReticleView.swift in Sources */,
+				BLDF00190000000000000000 /* ARCameraPreviewView.swift in Sources */,
+				BLDF00300000000000000000 /* MotorTestAnalysis.swift in Sources */,
+				BLDF00310000000000000000 /* MotorTestsView.swift in Sources */,
+				BLDF00320000000000000000 /* HeadInjuryResponseGuideView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		PDC000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		PRC000000000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		TDC000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.4.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.neuropulse.sideline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		TRC000000000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.4.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.neuropulse.sideline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		PCL000000000000000000001 /* Build configuration list for PBXProject "NeuroPulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				PDC000000000000000000001 /* Debug */,
+				PRC000000000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		TCL000000000000000000001 /* Build configuration list for PBXNativeTarget "NeuroPulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				TDC000000000000000000001 /* Debug */,
+				TRC000000000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = PROJ00000000000000000001 /* Project object */;
+}
